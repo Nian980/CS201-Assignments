@@ -1,0 +1,183 @@
+html, body {
+    font: 100% American Typewriter;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12vh;
+    background-color: #35302d;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 35% 35% 15% 15%;
+    align-items: center;
+}
+
+.header a {
+    font-size: 2.5rem;
+    display: inline;
+}
+
+.search-bar-form {
+    width: 400px;
+    background-color: #ffffff;
+}
+
+.search-bar-form input {
+    height: 1.8rem;
+    margin: 0;
+    font: 100% American Typewriter;
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    width: 300px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.search-bar-form button {
+    margin-top: 5px;
+    float: right;
+    border: none;
+    background: none;
+}
+
+.app-name-link {
+    padding-left: 5%;
+}
+
+.profile-link, .home-link {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.main {
+    margin-top: 12%;
+}
+
+.home-title {
+    margin-left: 2.5%;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.center-box {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 25vh;
+    border: 1px solid #35302d;
+    /* overflow-y: scroll; */
+}
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+
+.profile-name-class {
+    margin: 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#event-form {
+    background-color: #898989;
+    border: 2px solid #35302d;
+    margin: 1rem 5%;
+    padding: 1.5rem 2.5rem;
+}
+
+input {
+    font: 100% American Typewriter;
+    color: white;
+    padding-left: 0.5rem;
+    margin: 10px;
+    font-size: 1rem;
+    background-color: #898989;
+    border: 1px solid #35302d;
+}
+
+.title-input {
+    width: 580px;
+    height: 30px;
+}
+
+.startDateTime-input, .endDateTime-input {
+    margin-top: 0;
+    width: 220px;
+    height: 30px;
+}
+
+.endDateTime-input {
+    margin-left: 12%;
+}
+
+.addEvent-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #35302d;
+    background-color: white;
+    padding: 5px;
+    font-size: 1rem;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.following-title {
+    margin: 3.5rem;
+    font-size: 2.5rem;
+}
+
+.user-grid-container {
+    margin-bottom: 3vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+}
+
+.user {
+    /* margin-auto centers it! */
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.user a {
+    color: black;
+}
+
+.user-pic {
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-name-class {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #35302d;
+    margin: 0;
+    width: 100%;
+    height: 10vh;
+}

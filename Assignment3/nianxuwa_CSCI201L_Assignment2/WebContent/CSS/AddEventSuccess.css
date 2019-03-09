@@ -1,0 +1,64 @@
+html, body {
+    font: 100% American Typewriter;
+    margin: 0;
+}
+
+.header {
+    background-color: #35302d;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+}
+
+.header p {
+    font-size: 2.5rem;
+    display: inline;
+}
+
+.app-name-link {
+    padding-left: 5%;
+}
+
+.profile-link, .home-link {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.title {
+    text-align: center;
+    margin-left: 3%;
+    font-size: 2.5rem;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+
+.content-style>a {
+	font-size: 1.5rem;
+	margin-left: 40%;
+	font-style: normal;
+	color: #0000ff;
+}
+
+.content-style>a:hover {
+	text-decoration: underline;
+	font-style: italic;
+	color: #00008b;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #35302d;
+    margin: 0;
+    width: 100%;
+    height: 10vh;
+}

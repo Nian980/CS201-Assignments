@@ -1,0 +1,107 @@
+html, body {
+    font: 100% American Typewriter;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12vh;
+    background-color: #35302d;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 35% 35% 15% 15%;
+    align-items: center;
+}
+
+.header a {
+    font-size: 2.5rem;
+    display: inline;
+}
+
+.search-bar-form {
+    width: 400px;
+    background-color: #ffffff;
+}
+
+.search-bar-form input {
+    height: 1.8rem;
+    margin: 0;
+    font: 100% American Typewriter;
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    width: 300px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.search-bar-form button {
+    margin-top: 5px;
+    float: right;
+    border: none;
+    background: none;
+}
+
+.app-name-link {
+    padding-left: 5%;
+}
+
+.profile-link, .home-link {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.user-grid-container {
+    margin-top: 18vh;
+    margin-bottom: 3vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+}
+
+.user {
+    /* margin-auto centers it! */
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.user a {
+    color: black;
+}
+
+.user-pic {
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-name-class {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.no-users-found {
+    font-size: 2rem;
+    width: 100vw;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #35302d;
+    margin: 0;
+    width: 100%;
+    height: 10vh;
+}
