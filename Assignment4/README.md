@@ -1,5 +1,5 @@
 CSCI201 Assignment 4-5
-
+This is a large assignment, combination of 2 assignments.
 
 For JDBC connection, I used use mysql-connector-java-5.1.46
 
