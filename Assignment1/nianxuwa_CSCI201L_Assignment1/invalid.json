@@ -1,0 +1,20 @@
+{
+  "Users": [
+    {
+      "Name": {
+        "Fname": "Tommy",
+        "Lname": "Trojan"
+      },
+      "Events": {
+        "Event 1": {
+          "Title": "Kristy's Birthday Party",
+          "Time": "2:00 pm",
+          "Date": {
+            "Month": "July",
+            "Day": 31,
+            "Year": 2018
+            }
+        }
+    }
+  ]
+}

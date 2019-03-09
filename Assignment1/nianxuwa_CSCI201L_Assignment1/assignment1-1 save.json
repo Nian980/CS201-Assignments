@@ -1,0 +1,47 @@
+{
+  "Users": [
+    {
+      "Name": {
+        "Fname": "Tommy",
+        "Lname": "Trojan"
+      },
+      "Events": [
+        {
+          "Title": "Kristy's Birthday Party",
+          "Time": "2:00 pm",
+          "Date": {
+            "Month": "July",
+            "Day": 31,
+            "Year": 2018
+          }
+        },
+        {
+          "Title": "Doctor's Appointment",
+          "Time": "10:00 am",
+          "Date": {
+            "Month": "September",
+            "Day": 13,
+            "Year": 2018
+          }
+        }
+      ]
+    },
+    {
+      "Name": {
+        "Fname": "Jeffrey",
+        "Lname": "Miller"
+      },
+      "Events": [
+        {
+          "Title": "Lecture",
+          "Time": "8:00 am",
+          "Date": {
+            "Month": "August",
+            "Day": 25,
+            "Year": 2018
+          }
+        }
+      ]
+    }
+  ]
+}
